@@ -15,5 +15,5 @@ y mis Urls son:
 - 😄 6)Licencia
 - 📫 7)buscarEnfermero
 - 💞️ 8)resultadoBusqueda
-<!--- Para iniciar el servidor deben tener previamente **Django** instalado. Luego deben escribir el comando en su terminal: python manage.py runserver ---¡¡ Se deben respetar espacios y escritura!! Boton sign up No funciona, no redireccionado a ningun lado
+<!--- Para iniciar el servidor deben tener previamente **Django** instalado. Luego deben escribir el comando en su terminal: python manage.py runserver ---¡¡ Se deben respetar espacios y escritura!! Boton Sign Up No funciona, no redireccionado a ningun lado
 --->
