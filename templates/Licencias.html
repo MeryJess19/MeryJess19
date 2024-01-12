@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Licencias</title>
+</head>
+<body>
+    <h1>Aca se muestran las licencias</h1>
+    <form action="" method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+
+        <input type="submit" value="Guardar">
+    </form>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var fechaInicioInput = document.querySelector('#id_fecha_inicio');
+            var fechaFinInput = document.querySelector('#id_fecha_fin');
+
+            // Establece el tipo de entrada y el patrón para las fechas
+            fechaInicioInput.type = 'text';
+            fechaFinInput.type = 'text';
+
+            fechaInicioInput.pattern = '\\d{2}/\\d{2}/\\d{4}';
+            fechaFinInput.pattern = '\\d{2}/\\d{2}/\\d{4}';
+        });
+    </script>
+</body>
+</html>
