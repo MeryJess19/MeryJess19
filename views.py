@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from .models import Nurse, Turno, FrancoProgramado, Licencia
 from .forms import *
-from django.http import HttpResponse
+
 # Create your views here.
 
 
